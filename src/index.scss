@@ -1,0 +1,260 @@
+@import "./assets/fonts/iconfont.css";
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: couriernew, courier, monospace;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  background: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  max-width: 750px;
+  min-width: 320px;
+  background: #ffffff;
+}
+
+#root {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border: 2px solid #cec8c8fb;
+  box-sizing: border-box;
+}
+
+.emoji-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.emoji-smile {
+  background: url("./assets/emoji/smile.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-laughing {
+  background: url("./assets/emoji/laughing.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-blush {
+  background: url("./assets/emoji/blush.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-heart_eyes {
+  background: url("./assets/emoji/heart_eyes.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-smirk {
+  background: url("./assets/emoji/smirk.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-flushed {
+  background: url("./assets/emoji/flushed.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-grin {
+  background: url("./assets/emoji/grin.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-kissing_smiling_eyes {
+  background: url("./assets/emoji/kissing_smiling_eyes.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-wink {
+  background: url("./assets/emoji/wink.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-kissing_closed_eyes {
+  background: url("./assets/emoji/kissing_closed_eyes.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-stuck_out_tongue_winking_eye {
+  background: url("./assets/emoji/stuck_out_tongue_winking_eye.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-sleeping {
+  background: url("./assets/emoji/sleeping.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-worried {
+  background: url("./assets/emoji/worried.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-sweat_smile {
+  background: url("./assets/emoji/sweat_smile.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-cold_sweat {
+  background: url("./assets/emoji/cold_sweat.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-joy {
+  background: url("./assets/emoji/joy.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-sob {
+  background: url("./assets/emoji/sob.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-angry {
+  background: url("./assets/emoji/angry.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-mask {
+  background: url("./assets/emoji/mask.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-scream {
+  background: url("./assets/emoji/scream.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-sunglasses {
+  background: url("./assets/emoji/sunglasses.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-thumbsup {
+  background: url("./assets/emoji/thumbsup.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-clap {
+  background: url("./assets/emoji/clap.png") no-repeat;
+  background-size: contain;
+}
+
+.emoji-ok_hand {
+  background: url("./assets/emoji/ok_hand.png") no-repeat;
+  background-size: contain;
+}

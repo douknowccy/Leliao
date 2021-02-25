@@ -1,0 +1,49 @@
+.download_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+
+  height: 1.2rem;
+  width: 100%;
+  background: linear-gradient(90deg, #66cbff, #1480fe);
+
+  .content {
+    flex: 1;
+    display: flex;
+    color: white;
+    line-height: 0.5rem;
+    h4 {
+      font-size: 0.33rem;
+      p {
+        font-size: 0.28rem;
+      }
+    }
+    img {
+      margin-top: 0.05rem;
+      border-radius: 0.2333rem;
+      margin-left: 0.5rem;
+      width: 0.9rem;
+      height: 0.9rem;
+    }
+  }
+  a {
+    font-weight: bold;
+    height: 50%;
+    width: 2rem;
+
+    color: #1480fe;
+    margin-right: 0.5rem;
+
+    text-align: center;
+    padding-top: 0.13633rem;
+    background: url("../../assets/img/downloadLink.png") no-repeat;
+    background-size: 2rem;
+  }
+  img {
+    margin-top: -0.28rem;
+    margin-right: 0.45rem;
+    width: 0.4333rem;
+    height: 0.4333rem;
+  }
+}

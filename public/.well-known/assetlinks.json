@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "com.leyuht.twa",
+                   "sha256_cert_fingerprints": ["AD:D5:9C:A0:96:C2:68:4F:D5:9D:7E:C5:CA:43:DC:E8:96:EF:36:61:5F:92:8C:D8:81:94:C1:01:D7:F5:41:EF"] }
+    }]

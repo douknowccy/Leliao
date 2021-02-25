@@ -1,0 +1,23 @@
+.friends_container {
+  height: calc(100% - 238px);
+  overflow-y: scroll;
+}
+.single_friend {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 14px 20px 0 20px;
+}
+.single_friend_content {
+  display: flex;
+  align-items: center;
+  width: 87%;
+  height: 100%;
+  border-bottom: 1px solid rgba(225, 225, 225, 1);
+}
+.friend_name {
+  flex: 1;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+}

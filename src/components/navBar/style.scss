@@ -1,0 +1,159 @@
+.navBar {
+  // position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  background: #f6f6f6;
+  z-index: 99;
+  height: 110px;
+  width: 100%;
+
+  .activity .icon .icons {
+    animation-timing-function: ease;
+    animation-duration: 0.3s;
+    animation-name: my_animation;
+  }
+
+  .activity .activity-font {
+    color: rgba(37, 124, 240, 1);
+  }
+
+  .activity .icon .my-icon {
+    transform: translateY(100%);
+  }
+
+  .activity .icon .my-live {
+    transform: translateY(-100%);
+  }
+
+  .activity .icon .friend-icon {
+    transform: translateY(100%);
+  }
+
+  .activity .icon .friend-live {
+    transform: translateY(-100%);
+  }
+
+  .activity .icon .group-icon {
+    transform: translateY(100%);
+  }
+
+  .activity .icon .group-live {
+    transform: translateY(-100%);
+  }
+
+  .activity .icon .msg-icon {
+    transform: translateY(100%);
+  }
+
+  .activity .icon .msg-live {
+    transform: translateY(-100%);
+  }
+
+  li {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .total {
+      position: absolute;
+      top: 10px;
+      right: -30px;
+      text-align: center;
+      line-height: 30px;
+      padding: 6px;
+      width: 30px;
+      height: 30px;
+      font-size: 0.24rem;
+      border-radius: 50%;
+      color: #fff;
+      background: #e26767;
+      z-index: 1;
+    }
+
+    .icon {
+      width: 32px;
+      height: 32px;
+      overflow: hidden;
+
+      i {
+        display: block;
+        transition: 0.5s;
+      }
+    }
+
+    .msg-icon {
+      width: 32px;
+      height: 32px;
+      background: url("./img/msg.png") no-repeat;
+      background-size: cover;
+    }
+
+    .msg-live {
+      width: 32px;
+      height: 32px;
+      background: url("./img/msg-live.png") no-repeat;
+      background-size: cover;
+    }
+
+    .friend-icon {
+      width: 32px;
+      height: 32px;
+      background: url("./img/friend.png") no-repeat;
+      background-size: cover;
+    }
+
+    .friend-live {
+      width: 32px;
+      height: 32px;
+      background: url("./img/friend-live.png") no-repeat;
+      background-size: cover;
+    }
+
+    .group-icon {
+      width: 32px;
+      height: 32px;
+      background: url("./img/group.png") no-repeat;
+      background-size: cover;
+    }
+
+    .group-live {
+      width: 32px;
+      height: 32px;
+      background: url("./img/group-live.png") no-repeat;
+      background-size: cover;
+    }
+
+    .my-icon {
+      width: 32px;
+      height: 32px;
+      background: url("./img/my.png") no-repeat;
+      background-size: cover;
+    }
+
+    .my-live {
+      width: 32px;
+      height: 32px;
+      background: url("./img/my-live.png") no-repeat;
+      background-size: cover;
+    }
+
+    span {
+      font-size: 20px;
+      font-weight: 400;
+      padding-top: 6px;
+    }
+  }
+
+  @keyframes my_animation {
+    0% {
+      transform: translateY(0%);
+    }
+
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+}

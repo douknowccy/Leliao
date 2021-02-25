@@ -1,0 +1,187 @@
+.register {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-size: cover;
+  background-position: left;
+
+  .main {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+
+    .reg-title {
+      padding-top: 100px;
+      font-size: 56px;
+      font-family: Microsoft YaHei;
+      font-weight: bold;
+      color: #333333;
+    }
+
+    .reg-remark {
+      padding-top: 30px;
+      padding-bottom: 126px;
+      font-size: 26px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #616161;
+
+      span {
+        padding-left: 20px;
+      }
+    }
+
+    .reg-mobile {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      background: none;
+      border-bottom: 2px solid #e3e3e3;
+
+      .area {
+        font-size: 32px;
+        font-weight: 600;
+        color: #333333;
+        padding-right: 30px;
+        border-right: 2px solid #333;
+      }
+
+      input {
+        border: none;
+        width: 100%;
+        font-size: 32px;
+        font-family: Microsoft YaHei;
+        font-weight: 300;
+        color: #6f6f6f;
+        padding-left: 30px;
+        height: 60px;
+        line-height: 60px;
+        vertical-align: middle;
+        background: none;
+      }
+
+      input::-webkit-input-placeholder {
+        font-size: 32px;
+        font-family: Microsoft YaHei;
+        font-weight: 300;
+        color: #6f6f6f;
+      }
+    }
+
+    .reg-btn {
+      margin-top: 46px;
+      width: 690px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      font-size: 28px;
+      color: #ededed;
+      font-size: 600;
+
+      background: linear-gradient(90deg, #66cbff, #1480fe);
+      border-radius: 6px;
+      border-radius: 10px;
+    }
+  }
+
+  .no-activity {
+    color: #fffefe !important;
+
+    background: linear-gradient(90deg, #b0e2fb, #86bcfc) !important;
+  }
+
+  //注册第二步
+  .main.reg-two {
+    position: relative;
+
+    .reg-two-remark {
+      width: 100%;
+      font-size: 18px;
+      font-family: Microsoft YaHei;
+      font-weight: 300;
+      color: #666666;
+      margin-bottom: 8px;
+      margin-top: 8px;
+      width: 519px;
+      display: flex;
+      flex-flow: column;
+
+      span {
+        margin: 20px 0 0 30px;
+      }
+    }
+
+    .reg-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: none;
+      height: auto;
+
+      .in-num {
+        display: inline-block;
+        width: 96px;
+        height: 96px;
+        line-height: 96px;
+        border-radius: 8px;
+        text-align: center;
+        color: #616161;
+        background: #f3f3f3;
+        box-sizing: border-box;
+      }
+
+      .check {
+        border: 4px solid #358c49;
+      }
+
+      input {
+        position: absolute;
+        width: 690px;
+        padding: 0;
+        letter-spacing: 200px;
+        opacity: 0;
+      }
+    }
+
+    .reset {
+      padding-top: 54px;
+      font-size: 26px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: #616161;
+    }
+
+    .activity {
+      color: #e4e4e4 !important;
+
+      background: linear-gradient(90deg, #66cbff, #1480fe) !important;
+    }
+
+    .reg-btn {
+      color: #e4e4e4;
+      background: rgba(153, 153, 153, 0.9);
+    }
+  }
+
+  //注册第三步
+  .main.reg-three {
+    .reg-title {
+      padding-bottom: 180px;
+    }
+    .reg-btn {
+      font-size: 32px;
+    }
+    .reg-mobile {
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+  }
+}
+.passwordImg {
+  height: 0.3733rem;
+}
+.checkpasswordImg {
+  height: 0.18rem;
+}

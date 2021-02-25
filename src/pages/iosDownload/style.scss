@@ -1,0 +1,35 @@
+.iosdownload_bg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background: #bbd6ff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 14.6rem;
+    // width: 8.3733rem;
+    object-fit: contain;
+  }
+  a {
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9.2rem;
+    height: 1.0133rem;
+    background: linear-gradient(90deg, #66cbff, #1480fe);
+    border-radius: 4px;
+    border: none;
+
+    font-size: 31px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 34px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
