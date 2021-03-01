@@ -9,8 +9,8 @@
 /coverage
 
 # production
-/build
-build
+# /build
+# build
 /build.zip
 /build.rar
 # misc
